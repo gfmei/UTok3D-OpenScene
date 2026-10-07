@@ -42,7 +42,7 @@ hashes and point ordering against the release records. Ground-truth point labels
 are read from your local files.
 
 ```bash
-python code/verify_release.py --download --anonymous \
+python extractor/verify_release.py --download --anonymous \
   --gt-root /path/to/preprocess_open3dis --mode scores
 ```
 
@@ -54,7 +54,7 @@ score evaluation reproduces every audited prediction and the exact counts.
 To classify the full published features using the supplied text embeddings:
 
 ```bash
-python code/verify_release.py --download --anonymous \
+python extractor/verify_release.py --download --anonymous \
   --gt-root /path/to/preprocess_open3dis --mode features
 ```
 
@@ -76,7 +76,7 @@ Other evaluation options:
 For a quick arithmetic check using the compact reports already in this clone:
 
 ```bash
-python code/verify_release.py --release-root . --mode counts
+python extractor/verify_release.py --release-root . --mode counts
 ```
 
 The counts mode recomputes metrics from the supplied aggregate confusion matrix;
@@ -112,8 +112,8 @@ the CUDA inference dependencies and fetch the pinned upstream LSeg source:
 ```bash
 python -m pip install torch==2.5.1 torchvision==0.20.1 \
   --index-url https://download.pytorch.org/whl/cu124
-python -m pip install -r code/requirements.txt
-python code/setup_upstream.py
+python -m pip install -r extractor/requirements.txt
+python extractor/setup_upstream.py
 ```
 
 Obtain both Stanford 2D-3D-S RGB-D archives, `area_5a_no_xyz.tar` and
@@ -127,9 +127,9 @@ Area 5 image source. The archive MD5s are:
 Extract RGB, depth and perspective camera poses:
 
 ```bash
-python code/extract_data.py /path/to/area_5a_no_xyz.tar \
+python extractor/extract_data.py /path/to/area_5a_no_xyz.tar \
   --output /path/to/stanford2d3d_no_xyz --verify-md5
-python code/extract_data.py /path/to/area_5b_no_xyz.tar \
+python extractor/extract_data.py /path/to/area_5b_no_xyz.tar \
   --output /path/to/stanford2d3d_no_xyz --verify-md5
 ```
 
@@ -139,14 +139,14 @@ Its SHA256 is
 `f21aeb5532f53a5109d453d7d0d10320701ea11ece9a002291f84f95bda73af4`.
 
 ```bash
-python code/reproduce.py prepare --gt-root /path/to/preprocess_open3dis \
+python extractor/reproduce.py prepare --gt-root /path/to/preprocess_open3dis \
   --raw-root /path/to/stanford2d3d_no_xyz --manifest /path/to/manifest.json
-python code/reproduce.py infer --manifest /path/to/manifest.json \
+python extractor/reproduce.py infer --manifest /path/to/manifest.json \
   --checkpoint /path/to/demo_e200.ckpt --output /path/to/point_predictions
-python code/evaluate_voxels.py --manifest /path/to/manifest.json \
+python extractor/evaluate_voxels.py --manifest /path/to/manifest.json \
   --predictions /path/to/point_predictions --voxel-size 0.04 \
   --output /path/to/voxel_predictions
-python code/export_voxel_features.py --manifest /path/to/manifest.json \
+python extractor/export_voxel_features.py --manifest /path/to/manifest.json \
   --voxels /path/to/voxel_predictions --checkpoint /path/to/demo_e200.ckpt \
   --output /path/to/regenerated_features
 ```
