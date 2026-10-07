@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "points_tested": 21005,
+  "occupied_voxels": 19807,
+  "voxel_size_m": 0.04,
+  "upstream_commit": "0f369bc73d0724ae24b5e46bbada193f8ee9d193",
+  "upstream_augmentation": false,
+  "checks": [
+    "same voxel coordinates",
+    "same representative indices",
+    "same occupancy counts",
+    "duplicate first-point selection",
+    "negative and near-boundary coordinates",
+    "all-point inverse mapping checked for hash collisions"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "archive": "/data/disk1/data/stanford2d3d_archives/area_5a_no_xyz.tar",
+    "md5": "961a490072093fca726a483b74169b48",
+    "expected_md5": "961a490072093fca726a483b74169b48",
+    "verified": true,
+    "seconds": 462.6759573330637
+  },
+  {
+    "archive": "/data/disk1/data/stanford2d3d_archives/area_5b_no_xyz.tar",
+    "md5": "85fd6de1a7c7247d8563ed5976dbd06d",
+    "expected_md5": "85fd6de1a7c7247d8563ed5976dbd06d",
+    "verified": true,
+    "seconds": 826.2109694110695
+  }
+]

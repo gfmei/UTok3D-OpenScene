@@ -1,0 +1,56 @@
+{
+  "Open3DIS_commit": "bc2a3b3ee7161f5754ad7a7fe77202e9a66adc8e",
+  "openscene_commit": "0f369bc73d0724ae24b5e46bbada193f8ee9d193",
+  "lseg_feature_extraction_commit": "60afac405fe146c1c9df01ec3ea1baee39d5ee3b",
+  "checkpoint_url": "https://drive.google.com/file/d/1ayk6NXURI_vIPlym16f_RG3ffxBWHxvb/view",
+  "raw_rgbd_urls": [
+    "https://cvg-data.inf.ethz.ch/2d3ds/no_xyz/area_5a_no_xyz.tar",
+    "https://cvg-data.inf.ethz.ch/2d3ds/no_xyz/area_5b_no_xyz.tar"
+  ],
+  "expected_raw_md5": {
+    "area_5a_no_xyz.tar": "961a490072093fca726a483b74169b48",
+    "area_5b_no_xyz.tar": "85fd6de1a7c7247d8563ed5976dbd06d"
+  },
+  "checkpoint_sha256": "f21aeb5532f53a5109d453d7d0d10320701ea11ece9a002291f84f95bda73af4",
+  "torch": "2.5.1+cu124",
+  "smoke_check": "strict checkpoint load: all keys match; real Area 4 image: 512x320x320 finite features",
+  "metric_checks": "uncovered-point regression and 100 random confusion matrices passed; mean-feature/mean-score linearity checked",
+  "results_status": "complete: all 68 Area 5 rooms; see RESULTS.txt and final_validation.json",
+  "Pointcept_commit": "1342eda30e96cbb5fadf5374ff8eb18f6de15c71",
+  "perspective_pose_source": "https://github.com/Pointcept/Pointcept/blob/1342eda30e96cbb5fadf5374ff8eb18f6de15c71/pointcept/datasets/preprocessing/concerto/s3dis/preprocess_s3dis.py",
+  "camera_convention": "Perspective JSON OpenCV RT is in each scan area world frame; Area 5b: RT @ inverse(T_5b_to_s3dis)",
+  "attention_validation": {
+    "original_seconds": 0.31796860904432833,
+    "optimized_seconds": 0.10016942606307566,
+    "mean_cosine": 1.0,
+    "min_cosine": 0.9999996423721313,
+    "maximum_absolute_difference": 0.0007581710815429688
+  },
+  "area5b_to_s3dis": [
+    [
+      0,
+      1,
+      0,
+      -4.09703582
+    ],
+    [
+      -1,
+      0,
+      0,
+      6.22617759
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "registration_validation": "geometry_validation.json: 8 rooms per scan, depth only; no semantic labels"
+}

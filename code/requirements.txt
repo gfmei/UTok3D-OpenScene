@@ -1,0 +1,11 @@
+# Python 3.10. Install CUDA PyTorch separately for full inference.
+numpy==2.2.6
+Pillow==12.3.0
+pandas==2.3.3
+timm==0.5.4
+scipy==1.15.3
+ftfy==6.3.1
+regex==2026.9.10
+gdown==5.2.0
+huggingface_hub==1.32.0
+clip @ git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6

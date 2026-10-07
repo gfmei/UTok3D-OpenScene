@@ -1,0 +1,448 @@
+{
+  "semantic_labels_used": false,
+  "records": [
+    {
+      "source_area": "5a",
+      "room": "hallway_1",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_029bb1440fca47e2886a88559bbf8d00_hallway_1_frame_0_domain_pose.json",
+      "sampled_points": 50167,
+      "in_front_and_image": 1366,
+      "visible_points": 1364,
+      "tightly_aligned_points": 1136,
+      "median_visible_depth_residual_m": 0.0020903403528524933,
+      "camera_center": [
+        17.240201563687243,
+        -0.18333288378729076,
+        1.3650691327061795
+      ],
+      "room_min": [
+        -8.732000350952148,
+        -1.6469999551773071,
+        -0.014000000432133675
+      ],
+      "room_max": [
+        22.933000564575195,
+        1.8240000009536743,
+        3.9059998989105225
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5a",
+      "room": "hallway_5",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_048e6c8522334a908a52e340053498d3_hallway_5_frame_0_domain_pose.json",
+      "sampled_points": 50269,
+      "in_front_and_image": 1549,
+      "visible_points": 1549,
+      "tightly_aligned_points": 1532,
+      "median_visible_depth_residual_m": 0.0013506885832725857,
+      "camera_center": [
+        2.956546327182182,
+        15.719087560113751,
+        1.3688280086329097
+      ],
+      "room_min": [
+        -8.732000350952148,
+        13.428999900817871,
+        -0.03200000151991844
+      ],
+      "room_max": [
+        20.993999481201172,
+        15.977999687194824,
+        3.0859999656677246
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5a",
+      "room": "office_38",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_0597c4df4ffe454cab30c6cd4ac091bd_office_38_frame_0_domain_pose.json",
+      "sampled_points": 50394,
+      "in_front_and_image": 3230,
+      "visible_points": 3162,
+      "tightly_aligned_points": 2749,
+      "median_visible_depth_residual_m": 0.001984064227396942,
+      "camera_center": [
+        12.177674513987075,
+        -9.467714538726325,
+        1.3705049096746555
+      ],
+      "room_min": [
+        10.156000137329102,
+        -13.053000450134277,
+        0.0020000000949949026
+      ],
+      "room_max": [
+        20.125,
+        -7.6620001792907715,
+        4.416999816894531
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5a",
+      "room": "hallway_6",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_06889202154944f9b574e9396c6b8b10_hallway_6_frame_0_domain_pose.json",
+      "sampled_points": 50043,
+      "in_front_and_image": 2893,
+      "visible_points": 1641,
+      "tightly_aligned_points": 957,
+      "median_visible_depth_residual_m": 0.012147377536198434,
+      "camera_center": [
+        18.117587822131956,
+        10.633561737626255,
+        1.3717559287681198
+      ],
+      "room_min": [
+        17.18549919128418,
+        1.191499948501587,
+        -0.01600000075995922
+      ],
+      "room_max": [
+        19.361499786376953,
+        14.024499893188477,
+        3.0789999961853027
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5a",
+      "room": "office_13",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_0763d30c92824ef19ad53ab40d342eb4_office_13_frame_0_domain_pose.json",
+      "sampled_points": 51599,
+      "in_front_and_image": 17726,
+      "visible_points": 16738,
+      "tightly_aligned_points": 15121,
+      "median_visible_depth_residual_m": 0.006291466195009754,
+      "camera_center": [
+        21.5189631830629,
+        16.799307580836896,
+        1.3699280466736385
+      ],
+      "room_min": [
+        19.913999557495117,
+        14.041999816894531,
+        -0.017999999225139618
+      ],
+      "room_max": [
+        23.343000411987305,
+        21.584999084472656,
+        3.188999891281128
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5a",
+      "room": "office_42",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_09e99df100cb4d59bdaabe5aa8f87ecc_office_42_frame_0_domain_pose.json",
+      "sampled_points": 52780,
+      "in_front_and_image": 9626,
+      "visible_points": 8805,
+      "tightly_aligned_points": 1555,
+      "median_visible_depth_residual_m": 0.1535780744173465,
+      "camera_center": [
+        -3.7958151659599086,
+        17.2678567462872,
+        1.3766069582867098
+      ],
+      "room_min": [
+        -5.7164998054504395,
+        15.820500373840332,
+        -0.007000000216066837
+      ],
+      "room_max": [
+        -2.6424999237060547,
+        21.487499237060547,
+        3.174999952316284
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5a",
+      "room": "office_7",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_0b2396756adf4a76bbb985af92f534af_office_7_frame_0_domain_pose.json",
+      "sampled_points": 51341,
+      "in_front_and_image": 7928,
+      "visible_points": 7305,
+      "tightly_aligned_points": 6558,
+      "median_visible_depth_residual_m": 0.0018712222605152817,
+      "camera_center": [
+        2.94709352336757,
+        18.865245703352684,
+        1.3763518422931593
+      ],
+      "room_min": [
+        0.7609999775886536,
+        15.946999549865723,
+        -0.01899999938905239
+      ],
+      "room_max": [
+        3.815000057220459,
+        21.60099983215332,
+        3.188999891281128
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5a",
+      "room": "office_19",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5a/data/pose/camera_0badf64acbf040c8a08d988bd0c41492_office_19_frame_0_domain_pose.json",
+      "sampled_points": 51298,
+      "in_front_and_image": 3818,
+      "visible_points": 2656,
+      "tightly_aligned_points": 1839,
+      "median_visible_depth_residual_m": 0.003978344518454691,
+      "camera_center": [
+        5.015022026134516,
+        13.093811008200586,
+        1.3828980660555266
+      ],
+      "room_min": [
+        2.4189999103546143,
+        8.307999610900879,
+        -0.03099999949336052
+      ],
+      "room_max": [
+        9.767999649047852,
+        13.982000350952148,
+        3.1640000343322754
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "conferenceRoom_3",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_0000896878bd47b2a624ad180aac062e_conferenceRoom_3_frame_0_domain_pose.json",
+      "sampled_points": 50248,
+      "in_front_and_image": 2980,
+      "visible_points": 2960,
+      "tightly_aligned_points": 2727,
+      "median_visible_depth_residual_m": 0.005219208499362082,
+      "camera_center": [
+        -1.6165284633458927,
+        -18.94107677071611,
+        1.4919859916574332
+      ],
+      "room_min": [
+        -2.694499969482422,
+        -23.321500778198242,
+        -0.039000000804662704
+      ],
+      "room_max": [
+        3.552500009536743,
+        -17.234500885009766,
+        3.1689999103546143
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "hallway_14",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_01d25d1241b14f61bd143df9c758b914_hallway_14_frame_0_domain_pose.json",
+      "sampled_points": 53141,
+      "in_front_and_image": 1865,
+      "visible_points": 1865,
+      "tightly_aligned_points": 1865,
+      "median_visible_depth_residual_m": 0.006275053579214429,
+      "camera_center": [
+        -20.44098648860624,
+        -10.69787429372955,
+        1.4795851252118284
+      ],
+      "room_min": [
+        -21.552000045776367,
+        -15.314000129699707,
+        -0.014000000432133675
+      ],
+      "room_max": [
+        -19.586999893188477,
+        -7.526000022888184,
+        3.049999952316284
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "office_5",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_026953a8118c4f07ae9280975e7d9ffc_office_5_frame_0_domain_pose.json",
+      "sampled_points": 51097,
+      "in_front_and_image": 1758,
+      "visible_points": 1720,
+      "tightly_aligned_points": 1598,
+      "median_visible_depth_residual_m": 0.008708175411920038,
+      "camera_center": [
+        -7.931232106111585,
+        17.511467486297043,
+        1.4324489331438806
+      ],
+      "room_min": [
+        -8.869500160217285,
+        15.929499626159668,
+        -0.0020000000949949026
+      ],
+      "room_max": [
+        -5.774499893188477,
+        20.888500213623047,
+        3.183000087738037
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "hallway_11",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_03dacd54ae8b4e838b1ee299f4727b74_hallway_11_frame_0_domain_pose.json",
+      "sampled_points": 50728,
+      "in_front_and_image": 2506,
+      "visible_points": 2506,
+      "tightly_aligned_points": 2506,
+      "median_visible_depth_residual_m": 0.00240911277060718,
+      "camera_center": [
+        -23.99699476441293,
+        0.25023414807502764,
+        1.459408053225058
+      ],
+      "room_min": [
+        -30.256000518798828,
+        -0.8140000104904175,
+        -0.0010000000474974513
+      ],
+      "room_max": [
+        -21.55299949645996,
+        1.2200000286102295,
+        3.0460000038146973
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "hallway_9",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_0625ddcd59274de78620d0059a15a63f_hallway_9_frame_0_domain_pose.json",
+      "sampled_points": 50065,
+      "in_front_and_image": 14187,
+      "visible_points": 14164,
+      "tightly_aligned_points": 13625,
+      "median_visible_depth_residual_m": 0.006027323769982829,
+      "camera_center": [
+        -15.406749502994654,
+        0.28730738924106153,
+        1.4427490598449084
+      ],
+      "room_min": [
+        -21.552000045776367,
+        -1.4210000038146973,
+        -0.009999999776482582
+      ],
+      "room_max": [
+        -8.732999801635742,
+        1.2209999561309814,
+        3.8910000324249268
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "hallway_2",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_06f90c3f0bb1447682361157b2d78b58_hallway_2_frame_0_domain_pose.json",
+      "sampled_points": 50349,
+      "in_front_and_image": 2655,
+      "visible_points": 2609,
+      "tightly_aligned_points": 2497,
+      "median_visible_depth_residual_m": 0.002976645314305415,
+      "camera_center": [
+        -20.65220545904784,
+        -16.957331520591648,
+        1.4770200428653104
+      ],
+      "room_min": [
+        -21.417999267578125,
+        -18.033000946044922,
+        -0.05000000074505806
+      ],
+      "room_max": [
+        22.673999786376953,
+        -15.142999649047852,
+        3.0910000801086426
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "office_3",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_09d6fdea0db4443a8d81914d856ce82b_office_3_frame_0_domain_pose.json",
+      "sampled_points": 50705,
+      "in_front_and_image": 5281,
+      "visible_points": 5277,
+      "tightly_aligned_points": 5074,
+      "median_visible_depth_residual_m": 0.0013311388919206024,
+      "camera_center": [
+        -13.261001608159372,
+        19.5297277214805,
+        1.4336391184127497
+      ],
+      "room_min": [
+        -15.300999641418457,
+        15.901000022888184,
+        -0.014000000432133675
+      ],
+      "room_max": [
+        -12.220999717712402,
+        21.540000915527344,
+        3.190999984741211
+      ],
+      "center_in_expanded_room": true
+    },
+    {
+      "source_area": "5b",
+      "room": "office_4",
+      "pose": "/data/disk1/data/stanford2d3d_no_xyz/area_5b/data/pose/camera_0a529ee09fc04037831902b83073862b_office_4_frame_0_domain_pose.json",
+      "sampled_points": 51275,
+      "in_front_and_image": 2879,
+      "visible_points": 2829,
+      "tightly_aligned_points": 2650,
+      "median_visible_depth_residual_m": 0.0024186066961711106,
+      "camera_center": [
+        -10.954416873670521,
+        19.63385969046717,
+        1.4321060317632124
+      ],
+      "room_min": [
+        -12.069499969482422,
+        15.90149974822998,
+        -0.008999999612569809
+      ],
+      "room_max": [
+        -8.986499786376953,
+        21.594499588012695,
+        3.187000036239624
+      ],
+      "center_in_expanded_room": true
+    }
+  ],
+  "source": "OpenCV perspective JSON RT; Area 5b world registration applied; checked geometrically",
+  "area5b_to_s3dis": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      -4.09703582
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      6.22617759
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}
